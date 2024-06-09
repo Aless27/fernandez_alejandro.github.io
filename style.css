@@ -194,13 +194,13 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
     cursor: pointer;
   }
   .seccion_descripcion__imagen {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     padding: 10px;
     padding-bottom: 50px;
     background-color: var(--texto-primario);
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 50%;
     transform: translateX(-50%);
     object-fit: cover;
@@ -383,7 +383,7 @@ los escribiremos al final (comentarios: enlaces, botones, tarjetas) */
     transition: box-shadow 0.3s ease;   
   }
   .tarjeta__contenido {
-    position: absolute;
+    position: relative;/* modificado*/
     left: 0;
     top: 0;
     height: 100%;
